@@ -10,8 +10,15 @@ The dataset has 2,075,259 rows and 9 columns. We will only use data from the dat
 ## Scripts
 
 There are five scripts: one for each plot (plot?.R), and 
-one script with common sentences for load, select and transform data (loadData.R)
+one script with common sentences for load, select and transform data (loadData.R).
+
 Each plot script uses load data script (with source()).
+
+### To run the scripts:
+
+* Download the scripts loadData.R y plot*.R to working directory
+* Download the data file from web and unzip into ./data subdirectory 
+* Run the scripts
 
 ## Plots
 
@@ -21,17 +28,12 @@ The four plots that are constructed are shown below
 ![plot1](plot1.png) 
 
 ### Plot 2
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot2](plot1.png) 
 
 ### Plot 3
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot3](plot4.png) 
 
 ### Plot 4
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot4](plot4.png) 
 
 
-## Run the scripts:
-
-* Download the scripts loadData.R y plot*.R to working directory
-* Download the data file from web and unzip into ./data subdirectory 
-* Run the scripts
