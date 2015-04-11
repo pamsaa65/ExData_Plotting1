@@ -9,7 +9,7 @@ The dataset has 2,075,259 rows and 9 columns. We will only use data from the dat
 
 ## Scripts
 
-There are five scripts: one for each plot (plot?.R), and 
+There are five scripts: one for each plot (plot*.R), and 
 one script with common sentences for load, select and transform data (loadData.R).
 
 Each plot script uses load data script (with source()).
@@ -28,10 +28,10 @@ The four plots that are constructed are shown below
 ![plot1](plot1.png) 
 
 ### Plot 2
-![plot2](plot1.png) 
+![plot2](plot2.png) 
 
 ### Plot 3
-![plot3](plot4.png) 
+![plot3](plot3.png) 
 
 ### Plot 4
 ![plot4](plot4.png) 
