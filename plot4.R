@@ -1,6 +1,7 @@
 ##############################################################################
 ## Exploratory Analysis - Course Project 1 
-## Plot 2
+## Plot 4
+## pamsaa65 (Spain)
 
 source("loadData.R")
 
@@ -11,7 +12,8 @@ Sys.setlocale("LC_TIME", "C") ###
 #Create file device PNG, 480x480 (default size)
 png(filename="plot4.png", width=480, height=480, units="px")
 
-par(mfcol=c(2,2)) #, mar=c(4,4,2,1), oma=c(0,0,2,0))
+# Plots
+par(mfcol=c(2,2), oma = c(0, 0, 0, 1))
 with(datasubset, { 
     
     plot(Datetime, Global_active_power, type="l", 
@@ -28,10 +30,13 @@ with(datasubset, {
     plot(Datetime, Voltage, type="l", xlab="datetime")
 
     plot(Datetime, Global_reactive_power, type="l",xlab="datetime")
-} )
 
-#dev.copy(png, "plot4.png")
+} )
+mtext("(by pamsaa65)", side=4, outer=TRUE, col="grey")
+
+# Close device
 dev.off()
 
+# Reset locale
 Sys.setlocale("LC_TIME", lct) ###
 
